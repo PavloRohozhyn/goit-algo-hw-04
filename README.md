@@ -25,3 +25,10 @@ Python має дві вбудовані функції сортування: sor
 
 Після проведення тестування, ([Task](task.py)) отримаємо наступний результат:
 
+![result](result.png "result")
+
+**Size** - 
+**Merge Sort** - 
+**Insertion Sort** - 
+**Timesort** - 
+
