@@ -63,14 +63,11 @@ results = []
 for size in sizes:
     arr = random.sample(range(size * 2), size)
     # timing for Mergesoft
-    arr_copy = arr.copy()
-    merge_time = measure_time(merge_sort, arr_copy)
+    merge_time = measure_time(merge_sort, arr.copy())
     # timing for Insertion
-    arr_copy = arr.copy()
-    insertion_time = measure_time(insertion_sort, arr_copy)
+    insertion_time = measure_time(insertion_sort, arr.copy())
     # timing for Timsort
-    arr_copy = arr.copy()
-    timsort_time = measure_time(sorted, arr_copy)
+    timsort_time = measure_time(sorted, arr.copy())
     results.append((size, merge_time, insertion_time, timsort_time))
 
 # show result
